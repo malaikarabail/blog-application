@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Blog | Register</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h2>My Blog</h2>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="create-blog.html">Create Blog</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Register Section -->
+    <main class="auth-page">
+
+        <div class="auth-card">
+
+            <h1>Create Account</h1>
+
+            <p class="auth-subtitle">
+                Join our blog community today.
+            </p>
+
+            <form id="registerForm">
+
+                <!-- Full Name -->
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+                </div>
+
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="registerEmail">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="registerEmail"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+
+                    <input
+                        type="password"
+                        id="registerPassword"
+                        placeholder="Create a password"
+                        required
+                    >
+                </div>
+
+
+                <!-- Confirm Password -->
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        placeholder="Confirm your password"
+                        required
+                    >
+                </div>
+
+
+                <button type="submit" class="auth-btn">
+                    Create Account
+                </button>
+
+            </form>
+
+
+            <p class="auth-footer">
+                Already have an account?
+                <a href="login.html">Login here</a>
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Blog. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
