@@ -1,5 +1,5 @@
-alert("JavaScript is working!");
-// ===== REGISTER FORM =====
+
+
 
 const registerForm = document.getElementById("registerForm");
 
