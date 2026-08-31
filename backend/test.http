@@ -1,0 +1,24 @@
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+    "name": "Malaika",
+    "email": "malaika@example.com",
+    "password": "123456"
+}
+### Login API
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+    "email": "malaika@example.com",
+    "password": "123456"
+}
+### Create Blog API
+POST http://localhost:3000/api/blogs
+Content-Type: application/json
+
+{
+    "title": "My First Blog",
+    "content": "This is my first blog created using the backend API."
+}
